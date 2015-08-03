@@ -1,0 +1,7 @@
+<%= form_for @creature do |f| %>
+
+   Name: <%=  f.text_field :name %> <br>
+    Description <%= f.text_area :description %> <br>
+    <%= f.submit "save creature", class: "btn btn-default" %><br>
+
+<% end %>
